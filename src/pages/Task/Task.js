@@ -103,7 +103,7 @@ export const Task = () => {
             <Fragment>
                 <span className="focus-question">What is your main focus for today?</span>
                 <form onSubmit={handleFormSubmit}>
-                    <input required className="input task-input" onKeyPress={handleTaskChange}/>
+                    <input required className="input task-input" onKeyDown={handleTaskChange}/>
                 </form>
             </Fragment>) : (
                 <div className="user-task-container d-flex direction-column align-center gap-sm">
