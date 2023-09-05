@@ -45,7 +45,7 @@ export const Todo = () => {
                   <label className={`${isCompleted ? "strike-through" : ""} todo-label`}> 
                       <input className="todo-check" type="checkbox" onChange={() => handleTodoCheckChange(_id)} checked={isCompleted}/> {todo}</label>
                     <button className="button cursor todo-clear-btn" onClick={() => handleTodoDeleteClick(_id)} >
-                        <span class="material-icons-outlined">
+                        <span className="material-icons-outlined">
                               clear
                         </span>
                     </button>
